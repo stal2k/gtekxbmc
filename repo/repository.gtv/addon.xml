@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.gtv" name="gTeK gTV Repo" version="1.2" provider-name="gTeK Memphis">
+<addon id="repository.gtv" name="gTeK gTV Repo" version="1.0" provider-name="gTeK Memphis">
 	<extension point="xbmc.addon.repository" name="gTeK gTV Add-ons">
 		<info compressed="false">https://github.com/stal2k/gtekxbmc/raw/master/addons.xml</info>
 		<checksum>https://github.com/stal2k/gtekxbmc/raw/master/addons.xml.md5</checksum>
