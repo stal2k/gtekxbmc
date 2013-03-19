@@ -8,7 +8,7 @@
     <import addon="xbmc.python" version="1.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
-    <provides>video</provides>
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>android</platform>
@@ -28,7 +28,7 @@ Source: https://github.com/stal2k/gtekxbmc/</description>
     <import addon="xbmc.python" version="1.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
-    <provides>video</provides>
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>android</platform>
@@ -48,7 +48,7 @@ Source: https://github.com/stal2k/gtekxbmc/</description>
     <import addon="xbmc.python" version="1.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
-    <provides>video</provides>
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>android</platform>
@@ -68,7 +68,7 @@ Source: https://github.com/stal2k/gtekxbmc/</description>
     <import addon="xbmc.python" version="1.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
-    <provides>video</provides>
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>android</platform>
@@ -82,9 +82,9 @@ Source: https://github.com/stal2k/gtekxbmc/</description>
 
 <addon id="repository.gtv" name="gTeK gTV Repo" version="1.2" provider-name="Mikey1234">
 	<extension point="xbmc.addon.repository" name="gTeK gTV Add-ons">
-		<info compressed="false">https://github.com/stal2k/gtekxbmc</info>
-		<checksum>https://github.com/stal2k/gtekxbmc/addons</checksum>
-		<datadir zip="true">https://github.com/stal2k/gtekxbmc/gtv</datadir>
+		<info compressed="false">https://github.com/stal2k/gtekxbmc/raw/master/addons.xml</info>
+		<checksum>https://github.com/stal2k/gtekxbmc/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/stal2k/gtekxbmc/raw/master/repo</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install gTV addons</summary>
@@ -101,7 +101,7 @@ Source: https://github.com/stal2k/gtekxbmc/</description>
     <import addon="xbmc.python" version="1.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
-    <provides>video</provides>
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>android</platform>
@@ -121,7 +121,7 @@ Source: https://github.com/stal2k/gtekxbmc/</description>
     <import addon="xbmc.python" version="1.0"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
-    <provides>video</provides>
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>android</platform>
