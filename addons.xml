@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.program.com.androidemu.gens"
+  name="Sega Genesis"
+  version="1.0"
+  provider-name="gTeK TV">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">Sega Genesis
+    </summary>
+    <description lang="en">This add-on launches the genoid Android application.
+
+Source: https://github.com/stal2k/gtekxbmc/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.program.com.androidemu.n64"
+  name="Nintendo 64"
+  version="1.0"
+  provider-name="gTeK TV">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">Nintendo 64
+    </summary>
+    <description lang="en">This add-on launches the n64oid Android application.
+
+Source: https://github.com/stal2k/gtekxbmc/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.program.com.androidemu.nes"
+  name="Nintendo"
+  version="1.0"
+  provider-name="gTeK TV">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">Nintendo
+    </summary>
+    <description lang="en">This add-on launches the nesoid Android application.
+
+Source: https://github.com/stal2k/gtekxbmc/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.program.com.onlive.client	"
+  name="OnLive Cloud Gaming"
+  version="1.0"
+  provider-name="gTeK TV">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">OnLive Cloud Gaming
+    </summary>
+    <description lang="en">This add-on launches the Onlive Client Android application.
+
+Source: https://github.com/stal2k/gtekxbmc/</description>
+  </extension>
+</addon>
+
+<addon id="repository.gtv" name="gTeK gTV Repo" version="1.2" provider-name="Mikey1234">
+	<extension point="xbmc.addon.repository" name="gTeK gTV Add-ons">
+		<info compressed="false">https://github.com/stal2k/gtekxbmc</info>
+		<checksum>https://github.com/stal2k/gtekxbmc/addons</checksum>
+		<datadir zip="true">https://github.com/stal2k/gtekxbmc/gtv</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install gTV addons</summary>
+		<description>Download and install addons from gTeK. Includes originals and Optimzed versions of other addons not created by gTeK. visit us online at www.gtek-memphis.com</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.program.com.dancingpixelstudios.com.sixaxiscontroller"
+  name="Nintendo 64"
+  version="1.0"
+  provider-name="gTeK TV">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en">SixAxis Controller
+    </summary>
+    <description lang="en">This add-on launches the six axis Android application.
+
+Source: https://github.com/stal2k/gtekxbmc/</description>
+  </extension>
+</addon>
+
+<addon id="plugin.program.com.splashtop.remote.pad.v2"
+  name="Remote Desktop"
+  version="1.0"
+  provider-name="gTeK TV">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>android</platform>
+    <summary lang="en>Remote Desktop (splashtop)
+    </summary>
+    <description lang="en">This add-on launches the Splashtop android application
+
+Source: https://github.com/stal2k/gtekxbmc/</description>
+  </extension>
+</addon>
+</addons>
